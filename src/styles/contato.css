@@ -18,7 +18,7 @@
     margin-bottom: 1rem;
 }
 
-.contato-hero h1 {
+.contato-hero h2 {
     font-family: 'Playfair Display', serif;
     font-size: 2.6rem;
     font-weight: 400;
@@ -65,7 +65,7 @@
     padding-top: 0.2rem;
 }
 
-.item-informacao h5 {
+.item-informacao h3 {
     font-family: 'Playfair Display', serif;
     color: var(--text-main);
     margin-bottom: 0.25rem;
@@ -107,7 +107,7 @@
     padding: 3rem;
 }
 
-.cartao-formulario h2 {
+.cartao-formulario h3 {
     font-family: 'Playfair Display', serif;
     color: var(--text-main);
     margin-bottom: 0.4rem;

@@ -1,6 +1,7 @@
 import Hero from '../sections/Hero.jsx'
 import Beneficios from '../sections/Beneficios.jsx'
 import Destaques from '../sections/Destaques.jsx'
+import Contato from '../sections/Contato.jsx'
 
 export default function LandingPage(){
     return(
@@ -8,6 +9,7 @@ export default function LandingPage(){
             <Hero/>
             <Beneficios/>
             <Destaques/>
+            <Contato/>
         </>
     )
 }

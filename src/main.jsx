@@ -6,7 +6,7 @@ import './styles/main.css'
 import './styles/font.css'
 import './styles/header.css'
 import './styles/hero.css'
-import './styles/products.css'
+import './styles/footer.css'
 import './styles/contato.css'
 import App from './App.jsx'
 

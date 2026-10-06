@@ -50,6 +50,11 @@
 =========================================================== */
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+section{
+    scroll-margin-top: 90px;
 }
 
 *,

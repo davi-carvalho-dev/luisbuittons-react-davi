@@ -24,9 +24,10 @@
 
 .hero-text-box .sub-title {
     font-size: 0.85rem;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: var(--border-light);
+    color: #FFF;
     display: block;
     margin-bottom: 1rem;
 }
@@ -34,7 +35,7 @@
 .hero-title {
     font-family: 'Playfair Display', serif;
     font-size: 3.2rem;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 2rem;
     line-height: 1.2;
     color: #FFFFFF;

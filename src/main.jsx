@@ -8,6 +8,7 @@ import './styles/header.css'
 import './styles/hero.css'
 import './styles/footer.css'
 import './styles/contato.css'
+import './styles/products.css'
 import App from './App.jsx'
 
 

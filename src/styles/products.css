@@ -1,5 +1,5 @@
 /* =================================
-   PRODUTOS EM DESTAQUE - INDEX
+   PRODUTOS EM DESTAQUE
 ==================================== */
 
 .destaque-section {
@@ -48,6 +48,18 @@
     border-color: var(--brand-accent);
 }
 
+/* Antes era style inline no HTML; no React foi movido para o CSS */
+.product-card .card-img-top {
+    height: 350px;
+    object-fit: cover;
+}
+
+.product-card img {
+    height: 350px;
+    object-fit: cover;
+}
+
+
 .product-card .card-body {
     padding: 1.5rem;
 }
@@ -67,30 +79,7 @@
     color: var(--text-main);
 }
 
-.btn-add-carrinho {
-    background-color: var(--brand-primary);
-    color: var(--text-on-dark);
-    border: 1px solid var(--brand-primary);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 0.8rem;
-    font-weight: 600;
-    padding: 0.6rem 1rem;
-    border-radius: var(--radius-sm);
-    transition: var(--transition);
-}
-
-.btn-add-carrinho:hover {
-    background-color: var(--brand-hover);
-    border-color: var(--brand-hover);
-    color: var(--text-on-dark);
-}
-
-.destaque-links {
-    text-align: center;
-    margin-top: 2.5rem;
-}
-
+/* Usado no botão "Fale conosco" do Hero */
 .btn-outline-luxury {
     display: inline-block;
     padding: 12px 30px;
